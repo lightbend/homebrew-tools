@@ -4,6 +4,7 @@ class ReactiveCli < Formula
   homepage "https://github.com/lightbend/reactive-cli"
 
   depends_on "re2"
+  depends_on "openssl"
 
   url "https://bintray.com/lightbend/generic/download_file?file_path=reactive-cli-0.3.2-Mac_OS_X-x86_64.zip"
   version "0.3.2"
