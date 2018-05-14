@@ -6,9 +6,9 @@ class ReactiveCli < Formula
   depends_on "re2"
   depends_on "openssl"
 
-  url "https://bintray.com/lightbend/generic/download_file?file_path=reactive-cli-1.1.3-Mac_OS_X-x86_64.zip"
-  version "1.1.3"
-  sha256 "980c5a02e0e3577a538c6a0162d7cf0e8aebb00fc7837390e257a58997dce767"
+  url "https://bintray.com/lightbend/generic/download_file?file_path=reactive-cli-1.1.4-Mac_OS_X-x86_64.zip"
+  version "1.1.4"
+  sha256 "e1648741a53bc21bdbd1897038e23cb6ab9de4afc9a01b53aa501b8d10c58139"
 
   def install
     bin.install Dir["bin/*"]
